@@ -18,7 +18,7 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins= ["https://breast-cancer-risk-predi-222b7.web.app"],
+    allow_origins=["https://react-project-14934.web.app"],  # URL ของ frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
